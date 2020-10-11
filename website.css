@@ -1,0 +1,61 @@
+
+  @media (min-width: 992px) {
+   body {
+
+        background: linear-gradient(to bottom, turquoise 50%, black 50%);
+        background-repeat:no-repeat;
+     background-position: center;
+     background-size:cover;
+
+    }
+    html {
+        height:100%;
+    }
+    
+    #title {
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        margin-top: 200px;
+    }
+
+    .boxes {
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 12%;
+      }
+      .boxes div{
+        width: 250px;
+        height: 100px;
+      }
+
+    }
+    @media (min-width: 576px) {
+        body{
+        background: linear-gradient (to bottom, lightskyblue 25%, white 75%);
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size:cover;
+        }
+        #title {
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            margin-top: 200px;
+        }
+        .boxes {
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding-top: 12%;
+          }
+          .boxes div{
+            width: 250px;
+            height: 100px;
+          }
+    }
+
+
